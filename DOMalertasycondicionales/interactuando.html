@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Practicando me divierto</title>
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+   <script src="interactuando.js"></script>
+   <div class="container-general">
+     <nav>
+       <ul>
+         <li class="logo">
+           <img src="imagenes/dh.png" alt="Digital House logo">
+         </li>
+         <li class="menu">
+           <span class="uppercase">inicio</span>
+         </li>
+       </ul>
+     </nav>
+     <main>
+       <div class="container bienvenida">
+         <img class="avatar" src="imagenes/avatar.png" alt="avatar" width="50px" height="50px">
+         <h1>Bienvenido usuario</h1>
+         <h1></h1>
+         <h2 class="saludo"></h2>
+         <div class="background-img"></div>
+         <div id="accesoDenegado" style="display:none;">
+           <p>Acceso Denegado</p>
+         </div>
+         <div id="pelicula" style="display:none;">
+           <ul>
+             <li id="nombre"></li>
+             <li id="director"></li>
+             <li id="duracion"></li>
+             <li id="actor"></li>
+           </ul>
+         </div>
+       </div>
+     </main>
+     <footer>
+       <p>Vuelva pronto!</p>
+     </footer>
+   </div>
+   <div id="accesoDenegado" class="contenido-bloqueado">
+     <p>Acceso denegado!</p>
+   </div>
+ </body>
+</html>
