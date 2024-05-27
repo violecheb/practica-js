@@ -23,7 +23,7 @@ img{
 ***********************************/
 
 .bienvenida {
-    background-image: url("imgs/bg-image.jpg");
+    background-image: url("./imgs/bg-image.jpg");
     background-size: cover;
     
     height: inherit;
