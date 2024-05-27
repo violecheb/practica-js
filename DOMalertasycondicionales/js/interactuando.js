@@ -14,12 +14,11 @@ let nombre = prompt("Por favor ingrese su nombre: ");
 document.querySelector("h1").innerText = "Bienevido ${nombre}"
 
 let anios = prompt("Cuantos años tenes? ")
+let container = document.querySelector("div.container-general")
+let cointainer2 = document.querySelector("id.accesoDenegado")
 if (anios<18){
-    let container = document.querySelector("div.container-general")
     container.style.display = "none";
-    let cointainer2 = document.querySelector("id.accesoDenegado")
-    cointainer2.style.display = "block"
-    return;
+    cointainer2.style.display = "block";
 }
 
 let pregunta = confirm("Te gusta la programacion? ")
