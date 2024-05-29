@@ -23,7 +23,7 @@ img{
 ***********************************/
 
 .bienvenida {
-    background-image: url("./imgs/bg-image.jpg");
+    background-image: url("./imgs/bgimage.jpg");
     background-size: cover;
     
     height: inherit;
@@ -57,7 +57,7 @@ img{
 ***********************************/
 
 .personajes {
-    background-image: url('../img/bg-pattern.jpg');
+    background-image: url('../img/bgpattern.jpg');
     background-repeat: repeat-y;
 
     display: none;

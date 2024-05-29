@@ -1,0 +1,27 @@
+/* Ej 06 */
+
+.name {
+    background: yellow;
+    font-weight: bold;
+}
+
+.avatar {
+    border: 5px solid gold;
+}
+
+.email {
+    color: orange;
+}
+
+/* Ej 07 */
+
+.lista {
+    list-style: none;
+    padding: 0;
+}
+
+.lista li {
+    background: lightblue;
+    margin: 0.5em;
+    padding: 0.5em;
+}
