@@ -21,7 +21,7 @@ let misDatos2 = {
 }
 console.log(misDatos2.saludar());
     
-    /* 3 */
+/* 3 */
     let auto = {
     marca: "Volkswagen",
     modelo: "GOL",
@@ -43,7 +43,7 @@ console.log(misDatos2.saludar());
     auto.avanzar(1);
     console.log(auto.posicion); /* dentro de los parentesis de console log llamo a la posicion del auto */ 
     
-    /* 4 */
+/* 4 */
     
     let nuevoAuto = {
     marca: "Volkswagen",
@@ -55,7 +55,7 @@ console.log(misDatos2.saludar());
     if (n>0){
      this.posicion += n;
      return this.posicion;
-    }elif (n<0){
+    } else if (n<0){
      this.posicion -= n;
      return this.posicion;
     }
@@ -65,7 +65,7 @@ console.log(misDatos2.saludar());
     nuevoAuto.moverse(-5);
     console.log(nuevoAuto.posicion)
     
-    /* 5 */
+/* 5 */
     
     let ironMan = {
     nombre: "Iron Man",

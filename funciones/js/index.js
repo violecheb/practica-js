@@ -15,7 +15,7 @@ console.log(triangulo(9, 4));
 function largoArray(array){
 return array.length;
 }
-console.log(largoDelArray([12, 23, 22, 43, 25]));
+console.log(largoArray([12, 23, 22, 43, 25]));
 
 /* 4 */
 function cantidadDeLetras(palabra){

@@ -1,2 +1,2 @@
-# practica-js
+# links a practicas
 
